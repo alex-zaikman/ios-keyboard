@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013847C517689FE400AC9924 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013847C417689FE400AC9924 /* UIKit.framework */; };
+		013847C717689FE400AC9924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013847C617689FE400AC9924 /* Foundation.framework */; };
+		013847C917689FE400AC9924 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013847C817689FE400AC9924 /* CoreGraphics.framework */; };
+		013847CF17689FE400AC9924 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 013847CD17689FE400AC9924 /* InfoPlist.strings */; };
+		013847D117689FE400AC9924 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013847D017689FE400AC9924 /* main.m */; };
+		013847D517689FE400AC9924 /* aszAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013847D417689FE400AC9924 /* aszAppDelegate.m */; };
+		013847D717689FE400AC9924 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 013847D617689FE400AC9924 /* Default.png */; };
+		013847D917689FE400AC9924 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 013847D817689FE400AC9924 /* Default@2x.png */; };
+		013847DB17689FE400AC9924 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 013847DA17689FE400AC9924 /* Default-568h@2x.png */; };
+		013847DE17689FE400AC9924 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013847DC17689FE400AC9924 /* MainStoryboard.storyboard */; };
+		013847E117689FE400AC9924 /* aszViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013847E017689FE400AC9924 /* aszViewController.m */; };
+		013847EB1768A09A00AC9924 /* aszMathInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 013847EA1768A09A00AC9924 /* aszMathInputView.m */; };
+		013847EE1768A1B000AC9924 /* aszUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 013847ED1768A1B000AC9924 /* aszUIButton.m */; };
+		013847F41768A73900AC9924 /* aszMathInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013847F31768A73900AC9924 /* aszMathInputView.xib */; };
+		013847F61769A3AD00AC9924 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 013847F51769A3AC00AC9924 /* index.html */; };
+		013848021769CD4600AC9924 /* aszMathInputAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013848011769CD4600AC9924 /* aszMathInputAccessoryView.xib */; };
+		013848051769CE4100AC9924 /* aszMathInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 013848041769CE4000AC9924 /* aszMathInputAccessoryView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		013847C117689FE400AC9924 /* keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		013847C417689FE400AC9924 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		013847C617689FE400AC9924 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		013847C817689FE400AC9924 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		013847CC17689FE400AC9924 /* keyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "keyboard-Info.plist"; sourceTree = "<group>"; };
+		013847CE17689FE400AC9924 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		013847D017689FE400AC9924 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		013847D217689FE400AC9924 /* keyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "keyboard-Prefix.pch"; sourceTree = "<group>"; };
+		013847D317689FE400AC9924 /* aszAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aszAppDelegate.h; sourceTree = "<group>"; };
+		013847D417689FE400AC9924 /* aszAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aszAppDelegate.m; sourceTree = "<group>"; };
+		013847D617689FE400AC9924 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		013847D817689FE400AC9924 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		013847DA17689FE400AC9924 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		013847DD17689FE400AC9924 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		013847DF17689FE400AC9924 /* aszViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aszViewController.h; sourceTree = "<group>"; };
+		013847E017689FE400AC9924 /* aszViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aszViewController.m; sourceTree = "<group>"; };
+		013847E91768A09A00AC9924 /* aszMathInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aszMathInputView.h; sourceTree = "<group>"; };
+		013847EA1768A09A00AC9924 /* aszMathInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aszMathInputView.m; sourceTree = "<group>"; };
+		013847EC1768A1B000AC9924 /* aszUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aszUIButton.h; sourceTree = "<group>"; };
+		013847ED1768A1B000AC9924 /* aszUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aszUIButton.m; sourceTree = "<group>"; };
+		013847F31768A73900AC9924 /* aszMathInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = aszMathInputView.xib; sourceTree = "<group>"; };
+		013847F51769A3AC00AC9924 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		013848011769CD4600AC9924 /* aszMathInputAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = aszMathInputAccessoryView.xib; sourceTree = "<group>"; };
+		013848031769CE4000AC9924 /* aszMathInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aszMathInputAccessoryView.h; sourceTree = "<group>"; };
+		013848041769CE4000AC9924 /* aszMathInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aszMathInputAccessoryView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013847BE17689FE400AC9924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013847C517689FE400AC9924 /* UIKit.framework in Frameworks */,
+				013847C717689FE400AC9924 /* Foundation.framework in Frameworks */,
+				013847C917689FE400AC9924 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013847B817689FE400AC9924 = {
+			isa = PBXGroup;
+			children = (
+				013847CA17689FE400AC9924 /* keyboard */,
+				013847C317689FE400AC9924 /* Frameworks */,
+				013847C217689FE400AC9924 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		013847C217689FE400AC9924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				013847C117689FE400AC9924 /* keyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		013847C317689FE400AC9924 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				013847C417689FE400AC9924 /* UIKit.framework */,
+				013847C617689FE400AC9924 /* Foundation.framework */,
+				013847C817689FE400AC9924 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		013847CA17689FE400AC9924 /* keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				013847F31768A73900AC9924 /* aszMathInputView.xib */,
+				013848011769CD4600AC9924 /* aszMathInputAccessoryView.xib */,
+				013848031769CE4000AC9924 /* aszMathInputAccessoryView.h */,
+				013848041769CE4000AC9924 /* aszMathInputAccessoryView.m */,
+				013847E91768A09A00AC9924 /* aszMathInputView.h */,
+				013847EA1768A09A00AC9924 /* aszMathInputView.m */,
+				013847EC1768A1B000AC9924 /* aszUIButton.h */,
+				013847F51769A3AC00AC9924 /* index.html */,
+				013847ED1768A1B000AC9924 /* aszUIButton.m */,
+				013847D317689FE400AC9924 /* aszAppDelegate.h */,
+				013847D417689FE400AC9924 /* aszAppDelegate.m */,
+				013847DC17689FE400AC9924 /* MainStoryboard.storyboard */,
+				013847DF17689FE400AC9924 /* aszViewController.h */,
+				013847E017689FE400AC9924 /* aszViewController.m */,
+				013847CB17689FE400AC9924 /* Supporting Files */,
+			);
+			path = keyboard;
+			sourceTree = "<group>";
+		};
+		013847CB17689FE400AC9924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				013847CC17689FE400AC9924 /* keyboard-Info.plist */,
+				013847CD17689FE400AC9924 /* InfoPlist.strings */,
+				013847D017689FE400AC9924 /* main.m */,
+				013847D217689FE400AC9924 /* keyboard-Prefix.pch */,
+				013847D617689FE400AC9924 /* Default.png */,
+				013847D817689FE400AC9924 /* Default@2x.png */,
+				013847DA17689FE400AC9924 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		013847C017689FE400AC9924 /* keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013847E417689FE400AC9924 /* Build configuration list for PBXNativeTarget "keyboard" */;
+			buildPhases = (
+				013847BD17689FE400AC9924 /* Sources */,
+				013847BE17689FE400AC9924 /* Frameworks */,
+				013847BF17689FE400AC9924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keyboard;
+			productName = keyboard;
+			productReference = 013847C117689FE400AC9924 /* keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		013847B917689FE400AC9924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = asz;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "alex zaikman";
+			};
+			buildConfigurationList = 013847BC17689FE400AC9924 /* Build configuration list for PBXProject "keyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 013847B817689FE400AC9924;
+			productRefGroup = 013847C217689FE400AC9924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				013847C017689FE400AC9924 /* keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		013847BF17689FE400AC9924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013847CF17689FE400AC9924 /* InfoPlist.strings in Resources */,
+				013847D717689FE400AC9924 /* Default.png in Resources */,
+				013847D917689FE400AC9924 /* Default@2x.png in Resources */,
+				013847DB17689FE400AC9924 /* Default-568h@2x.png in Resources */,
+				013847DE17689FE400AC9924 /* MainStoryboard.storyboard in Resources */,
+				013847F41768A73900AC9924 /* aszMathInputView.xib in Resources */,
+				013847F61769A3AD00AC9924 /* index.html in Resources */,
+				013848021769CD4600AC9924 /* aszMathInputAccessoryView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013847BD17689FE400AC9924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013847D117689FE400AC9924 /* main.m in Sources */,
+				013847D517689FE400AC9924 /* aszAppDelegate.m in Sources */,
+				013847E117689FE400AC9924 /* aszViewController.m in Sources */,
+				013847EB1768A09A00AC9924 /* aszMathInputView.m in Sources */,
+				013847EE1768A1B000AC9924 /* aszUIButton.m in Sources */,
+				013848051769CE4100AC9924 /* aszMathInputAccessoryView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		013847CD17689FE400AC9924 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013847CE17689FE400AC9924 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		013847DC17689FE400AC9924 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013847DD17689FE400AC9924 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		013847E217689FE400AC9924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		013847E317689FE400AC9924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		013847E517689FE400AC9924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "keyboard/keyboard-Prefix.pch";
+				INFOPLIST_FILE = "keyboard/keyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		013847E617689FE400AC9924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "keyboard/keyboard-Prefix.pch";
+				INFOPLIST_FILE = "keyboard/keyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013847BC17689FE400AC9924 /* Build configuration list for PBXProject "keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013847E217689FE400AC9924 /* Debug */,
+				013847E317689FE400AC9924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013847E417689FE400AC9924 /* Build configuration list for PBXNativeTarget "keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013847E517689FE400AC9924 /* Debug */,
+				013847E617689FE400AC9924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 013847B917689FE400AC9924 /* Project object */;
+}

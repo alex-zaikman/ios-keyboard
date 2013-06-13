@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <script type="text/javascript">
+            
+
+            function mathKeyboardNedded(){
+                
+                var iframe = document.createElement("IFRAME");
+                iframe.setAttribute("src", "js-call:mathKeyboardNedded");
+                document.documentElement.appendChild(iframe);
+                iframe.parentNode.removeChild(iframe);
+                iframe = null;
+            }
+            
+            
+            </script>
+    </head>
+    
+    <body >
+        
+        <h>Hello world!</h>
+        
+               
+        <p id="demo">
+        
+        <input type="text" id="math" onclick='mathKeyboardNedded()'></input>
+        
+        
+        </p>
+
+
+        
+    </body>
+    
+</html>
