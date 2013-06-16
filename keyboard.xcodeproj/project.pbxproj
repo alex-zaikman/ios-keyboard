@@ -99,11 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				013847F31768A73900AC9924 /* aszMathInputView.xib */,
+				013847E91768A09A00AC9924 /* aszMathInputView.h */,
+				013847EA1768A09A00AC9924 /* aszMathInputView.m */,
 				013848011769CD4600AC9924 /* aszMathInputAccessoryView.xib */,
 				013848031769CE4000AC9924 /* aszMathInputAccessoryView.h */,
 				013848041769CE4000AC9924 /* aszMathInputAccessoryView.m */,
-				013847E91768A09A00AC9924 /* aszMathInputView.h */,
-				013847EA1768A09A00AC9924 /* aszMathInputView.m */,
 				013847EC1768A1B000AC9924 /* aszUIButton.h */,
 				013847F51769A3AC00AC9924 /* index.html */,
 				013847ED1768A1B000AC9924 /* aszUIButton.m */,
@@ -333,6 +333,7 @@
 				013847E617689FE400AC9924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
